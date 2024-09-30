@@ -1,0 +1,13 @@
+.container {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .cart {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    width: 50%;
+    margin-top: 1rem;
+  }
+  
